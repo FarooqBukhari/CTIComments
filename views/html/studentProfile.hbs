@@ -1,0 +1,80 @@
+<div class="row">
+    <div class="col-md-3 col-lg-3">
+        <div class="profileCard">
+            <h1>{{currentUser.fullname}}</h1>
+            <p class="titleCard">{{currentUser.department}}</p>
+            <p>{{currentUser.username}}</p>
+            <p><button class="buttonCard">{{currentUser.dob}}</button></p>
+        </div>
+        <div class="list-group sidebar">
+            <a class="list-group-item list-group-item-action active dash text-center">Dashboard</a>
+            <a class="list-group-item list-group-item-action notifications text-center"><i class="fa fa-bell" aria-hidden="true"></i> Notifications <span class="badge">{{notifications}}</span></a>     
+        </div> 
+    </div>
+    <div class="col-md-9 col-lg-9">
+        <div class="dashboard">
+            <h3 class="text-danger">My Comments</h3>
+            {{#each comments}}
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h3 class="company"><strong>Company: </strong>{{this.company}}</h3>
+                                <h4 class="company text-secondary"><strong>Designation: </strong>{{ this.designation }}</h4>
+                                <p class="comment"><strong>Your Comment: </strong>{{ this.text }}</p>
+                                <small class="location"><strong>Status: </strong>{{this.status}}</small>
+                                <hr>
+                                <div class="clearfix">
+                                    {{#each this.reply}}
+                                        <div class="pull-left">
+                                            <p class="reply"><strong>Reply: </strong>{{this.replytext}}   </p>
+                                            <small class="location"><strong>Replied By: </strong>{{this.advisorname}}</small>
+                                        </div>
+                                    {{/each}}
+                                    <div class="clearfix">
+                                        <small class="clearfix pull-left"> Comment Type: {{this.commenttype}}</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/each}}
+        </div>
+        <div class="card">
+           <h3 class="text-danger">Unread Replies</h3>
+           {{#each unreadReplies}}
+                <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                        <div class="thumbnail">
+                            <div class="caption">
+                                <h3 class="company"><strong>Company: </strong>{{this.company}}</h3>
+                                <h4 class="company text-secondary"><strong>Designation: </strong>{{ this.designation }}</h4>
+                                <p class="comment"><strong>Your Comment: </strong>{{ this.text }}</p>
+                                <small class="location"><strong>Status: </strong>{{this.status}}</small>
+                                <hr>
+                                <div class="clearfix">
+                                    {{#each this.reply}}
+                                        <div class="pull-left">
+                                            <p class="reply"><strong>Reply: </strong>{{this.replytext}}    </p>
+                                            <small class="location"><strong>Replied By: </strong>{{this.advisorname}}</small>
+                                        </div>
+                                    {{/each}}
+                                    {{#if this.reply}}
+                                        <a href="/markread/{{this.id}}" class="btn btn-danger pull-right" role="button">Mark as Read</a>
+                                    {{/if}}
+                                    <div class="clearfix">
+                                        <small class="clearfix pull-left"> Comment Type: {{this.commenttype}}</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {{/each}} 
+        </div>
+    </div>
+</div>
+<script src="/js/profile.js"></script>
+
+

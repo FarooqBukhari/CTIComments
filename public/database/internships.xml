@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<internships>
+
+  <internship>
+    <id>1</id>
+    <company>The C++ Programming Language</company>
+    <designation>Junior Visualizer</designation>
+    <description>Bjarne Stroustrup</description>
+    <location>2003</location>
+    <salary>32.77</salary>
+    <type>Graphics Designing</type>
+  </internship>
+
+  <internship>
+    <id>2</id>
+    <company>Harry Potter</company>
+    <designation>Junior Visualizer</designation>
+    <description>J K. Rowling</description>
+    <location>2005</location>
+    <salary>29.99</salary>
+    <type>Graphics Designing</type>
+  </internship>
+
+  <internship>
+    <id>3</id>
+    <company>Ivor Horton's Beginning Java</company>
+    <designation>Junior Visualizer</designation>
+    <description>Ivor Horton</description>
+    <location>2011</location>
+    <salary>37</salary>
+    <type>Graphics Designing</type>
+  </internship>
+
+  <internship>
+    <id>4</id>
+    <company>The Pragmatic Programmer</company>
+    <designation>Junior FrontEnd Designer</designation>
+    <description>Andrew Hunt</description>
+    <location>2005</location>
+    <salary>30.00</salary>
+    <type>Web Programming</type>
+  </internship>
+
+  <internship>
+    <id>5</id>
+    <company>XQuery Kick Start</company>
+    <designation>Junior BackEnd Developer</designation>
+    <description>James McGovern</description>
+    <location>2003</location>
+    <salary>49.99</salary>
+    <type>Web Programming</type>
+  </internship>
+
+  <internship>
+    <id>6</id>
+    <company>Learning XML</company>
+    <designation>Full Stack Engineer</designation>
+    <description>Erik T. Ray</description>
+    <location>2003</location>
+    <salary>39.95</salary>
+    <type>Web Programming</type>
+  </internship>
+
+</internships>

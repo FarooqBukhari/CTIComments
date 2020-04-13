@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+
+<user>
+  <username>test1</username>
+  <fullname>Beta Tester</fullname>
+  <dob>12/09/1997</dob>
+  <password>12345</password>
+  <department>Graphics Designing</department>
+</user>
+
+<user>
+  <username>test2</username>
+  <fullname>Alpha Tester</fullname>
+  <dob>19/02/2000</dob>
+  <password>helloworld</password>
+  <department>Web Programming</department>
+</user>
+
+</users>

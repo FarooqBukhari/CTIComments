@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<advisors>
+
+<advisor>
+  <username>testadvisor1</username>
+  <fullname>Beta Advisor</fullname>
+  <dob>12/09/1977</dob>
+  <password>12345</password>
+  <department>Graphics Designing</department>
+</advisor>
+
+<advisor>
+  <username>testadvisor2</username>
+  <fullname>Alpha Advisor</fullname>
+  <dob>19/02/1985</dob>
+  <password>helloworld</password>
+  <department>Web Programming</department>
+</advisor>
+
+</advisors>

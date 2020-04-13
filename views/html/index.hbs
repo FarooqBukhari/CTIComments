@@ -1,0 +1,19 @@
+<h3>Internships</h3>
+{{# each internships }}
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h3 class="company text-danger">{{ this.company }}</h3>
+                    <h5 class="company text-danger">{{ this.designation }}</h5>
+                    <p class="salary">{{ this.salary }} PKR</p>
+                    <small class="location">{{ this.location }}</small>
+                    <div class="clearfix">
+                        <div class="type pull-left">{{ this.type }}</div>
+                        <a href='/comment/{{this.id}}' class="btn btn-danger pull-right" role="button">Comment</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/each}}

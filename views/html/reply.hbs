@@ -1,0 +1,24 @@
+<h2>Internship</h2>
+<div class="row">
+    <div class="col-sm-12 col-md-12">
+        <div class="thumbnail">
+            <div class="caption">
+                <h3 class="company text-danger">{{ internship.company }}</h3>
+                <h5 class="company text-danger">{{ internship.designation }}</h5>
+                <p class="comment"><strong>Posted by: </strong>{{ comment.username }}</p>
+                <p class="comment"><strong>Posted Comment: </strong>{{ comment.text }}</p>
+                <div class="clearfix">
+                    <div class="type pull-left">{{ internship.type }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form action='/reply/{{comment.id}}/{{internship.id}}' method='post' id="reply-form">
+    <div class="form-group">
+        <label for="reply">Reply: </label>
+        <textarea class="form-control" id="reply" name="reply" placeholder='Reply Back' required> </textarea>
+    </div>              
+    <button class="btn btn-danger btn-md pull-right" type="submit">Reply <i class="fa fa-commenting-o" aria-hidden="true"></i></button> 
+</form>

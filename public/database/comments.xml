@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<comments>
+  <comment>
+    <username>test1</username>
+    <text>Which Web Technology does your company prefer?</text>
+    <id>1</id>
+    <internshipid>5</internshipid>
+    <company>XQuery Kick Start</company>
+    <designation>Junior BackEnd Developer</designation>
+    <status>Replied</status>
+    <type>Web Programming</type>
+    <commenttype>Request</commenttype>
+    <datecreated>08/12/2018</datecreated>
+    <reply>
+      <advisorname>testadvisor2</advisorname>
+      <replytext>NodeJS</replytext>
+      <status>Read</status>
+    </reply>
+  </comment>
+  <comment>
+    <username>test1</username>
+    <text>I worked for them previous fall. Loved the Environment.</text>
+    <id>2</id>
+    <internshipid>2</internshipid>
+    <company>Harry Potter</company>
+    <designation>Junior Visualizer</designation>
+    <status>Replied</status>
+    <type>Graphics Designing</type>
+    <commenttype>Feedback</commenttype>
+    <datecreated>08/11/2018</datecreated>
+    <reply>
+      <advisorname>testadvisor1</advisorname>
+      <replytext> Hellloooo1111111</replytext>
+      <status>Read</status>
+    </reply>
+  </comment>
+  <comment>
+    <username>test1</username>
+    <text> Hellooooo </text>
+    <id>3</id>
+    <internshipid>1</internshipid>
+    <company>The C++ Programming Language</company>
+    <designation>Junior Visualizer</designation>
+    <status>Posted</status>
+    <type>Graphics Designing</type>
+    <commenttype>Request</commenttype>
+    <datecreated>09/12/2018</datecreated>
+  </comment>
+</comments>
